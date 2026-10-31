@@ -1,0 +1,13 @@
+{
+  "name": "taskflow-mern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskFlow — Full-Stack Task Management Application (MERN Stack)",
+  "scripts": {
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client"
+  },
+  "author": "",
+  "license": "MIT"
+}
