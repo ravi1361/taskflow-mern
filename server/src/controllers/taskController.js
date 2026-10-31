@@ -132,7 +132,7 @@ export const updateTask = async (req, res, next) => {
         ...(req.body.description !== undefined && { description: req.body.description.trim() }),
       },
       {
-        new: true,
+        returnDocument: 'after',
         runValidators: true,
       }
     );
